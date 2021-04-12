@@ -1,0 +1,22 @@
+@import "src/@WTheme/scss/WTheme";
+.sidebar {
+    background: greenyellow;
+    height: 100%;
+    width: 100%;
+    mat-toolbar {
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;    
+        padding: 0 13px;
+        .info {
+            width: 100%;
+            background: hotpink;
+            height: 100%;
+            .titulo .correo {
+                width: 100%;
+            }
+        }
+    }
+}

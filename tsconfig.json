@@ -15,7 +15,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths" : {
+      "@WTheme/*": ["src/@WTheme/*"]
+
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
